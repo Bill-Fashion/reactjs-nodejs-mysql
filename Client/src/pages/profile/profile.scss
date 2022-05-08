@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+.profile-container {
+    font-family: 'gaegu';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .header-container {
+        .username {
+            color: white;
+
+            .username-container {
+                font-weight: bold;
+                color: rgba(244, 91, 105, 1);
+            }
+        }
+
+        .student-id {
+            color: white;
+
+            .id-container {
+                font-weight: bold;
+                color: rgba(244, 91, 105, 1);
+            }
+        }
+    }
+
+    .courses-registered {
+        width: 90vw;
+        margin: 50px;
+
+        .courses-registered__title {
+            color: rgba(244, 91, 105, 1);
+        }
+
+        .course-name {
+            font-size: 25px;
+            color: white;
+        }
+    }
+}
